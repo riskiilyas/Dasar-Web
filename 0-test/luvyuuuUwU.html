@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UwU</title>
+</head>
+<body>
+  <h1>Hai Cantik</h1>
+  <img src="" alt="">
+  <h1>Mau kah kamu jadi pacarku UwU</h1>
+  <button class="" onclick="alert('Maacii UwU')">Mauuuuu</button>
+  <button id="btnGakMau" style="position: relative">Ngga Mauu</button>
+</body>
+<script>
+    gamau()
+    function gamau() {
+        var btn = document.getElementById("btnGakMau");
+        var x = Math.floor(Math.random()*300)+1;
+        var y = Math.floor(Math.random()*100)+btn.offsetTop;
+        btn.onmouseenter(ev => {
+            btn.style.left = x + "px";
+
+        })
+    }
+</script>
+</html>
