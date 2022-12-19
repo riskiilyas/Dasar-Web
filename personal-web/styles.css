@@ -4,13 +4,21 @@ body {
 }
 
 h1 {
-    margin-top: 0;
+    font-size: 4rem;
+    text-align: center;
+    color: #1B2C29;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-family: Roboto, sans-serif;
     text-align: center;
     color: #1B2C29;
 }
 
 p {
     text-align: center;
+    font-family: Roboto, sans-serif;
 }
 
 .img-mountain {
@@ -21,23 +29,76 @@ p {
 
 .img-cloud1 {
     position: relative;
-    left: 100px;
+    left: 12rem;
 }
 
 .img-cloud2 {
     position: absolute;
-    right: 100px;
+    right: 6rem;
 }
 
 .top-container {
     background-color: #E4F9F5;
-    padding-top: 100px;
+    padding-top: 6rem;
+}
+
+.img-profile {
+    display: block;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #E4F9F5;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height:8rem;
+    width:8rem;
 }
 
 .middle-container {
-    background-color: red;
+    padding: 100px 10px 10px;
+    background-color: #EEF5F4;
+}
+
+h3 {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    color: #1B2C29;
+}
+
+.img-skill {
+    width: 10rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-row-set {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.skill-row {
+    display: inline-block;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 24rem;
+}
+
+.footer-link-set{
+    text-align: center;
+}
+
+.footer-link {
+    color: #66BFBF;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .bottom-container {
-    background-color: blue;
+    color: #E4F9F5;
+    padding: 10px;
+    background-color: #021915;
 }
