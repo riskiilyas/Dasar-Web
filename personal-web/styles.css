@@ -1,11 +1,43 @@
 body {
     margin: 0;
+    font-family: "Adobe Heiti Std R", sans-serif;
 }
 
 h1 {
     margin-top: 0;
+    text-align: center;
+    color: #1B2C29;
 }
 
-div {
+p {
+    text-align: center;
+}
+
+.img-mountain {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-cloud1 {
+    position: relative;
+    left: 100px;
+}
+
+.img-cloud2 {
+    position: absolute;
+    right: 100px;
+}
+
+.top-container {
     background-color: #E4F9F5;
+    padding-top: 100px;
+}
+
+.middle-container {
+    background-color: red;
+}
+
+.bottom-container {
+    background-color: blue;
 }
