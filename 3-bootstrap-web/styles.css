@@ -41,7 +41,6 @@ h1 {
     font-family: Montserrat, sans-serif;
     font-size: 4.5rem;
     font-weight: bold;
-    margin-bottom: 3rem;
 }
 
 .img-phone {
@@ -53,4 +52,28 @@ h1 {
 }
 
 #div-slogan {
+}
+
+.btn-download {
+    margin: 3rem 0.5rem 4rem 0.5rem;
+}
+
+#features {
+    padding: 5% 15%;
+}
+
+.div-feature {
+    text-align: center;
+    padding: 4%;
+}
+
+h3 {
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.icon {
+    color: #ff4c68;
+    margin-bottom: 1rem;
 }
