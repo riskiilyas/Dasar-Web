@@ -92,7 +92,7 @@ h3 {
 h2 {
     font-family: Montserrat, sans-serif;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .img-testimonial {
@@ -112,12 +112,51 @@ h2 {
     margin: 0 2rem;
 }
 
-.d-block {
-    padding: 3rem;
+.carousel-item {
+    padding: 7% 15%;
 }
 
 #press {
     text-align: center;
     background-color: #ef8172;
     padding-bottom: 3%;
+}
+
+#pricing{
+    padding: 7% 15%;
+}
+
+.pricing-amount {
+    color: black;
+}
+
+.btn-primary, .btn-outline-primary {
+    border-color: #ff4c68;
+}
+
+.btn-outline-primary {
+    color: #ff4c68;
+}
+
+.btn-primary {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.primary-card {
+    border-color: #ff4c68;
+}
+
+#priority-header {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.pricing-title {
+    text-align: center;
+}
+
+.btn-pricing:hover {
+    background-color: #ffbdc6;
+    border-color: #ffbdc6;
 }
