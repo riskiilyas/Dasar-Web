@@ -173,6 +173,33 @@ h2 {
     color: black;
 }
 
+#cta {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+.h3-cta {
+    color: white;
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.i-footer {
+    margin: 1rem 0.5rem;
+    color: gray;
+}
+
+.i-footer:hover {
+    color: #ffbdc6;
+}
+
+
 @media (max-width: 1000px) {
 
     .img-phone {
@@ -187,7 +214,6 @@ h2 {
     #div-phone {
         padding-left: 0;
     }
-
 
     #features {
         padding: 5% 15%;
