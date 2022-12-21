@@ -47,8 +47,13 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 16rem;
+    width: 18rem;
     transform: rotate(25deg);
+    position: absolute;
+}
+
+#div-phone {
+    padding-left: 6rem;
 }
 
 #div-slogan {
@@ -60,6 +65,9 @@ h1 {
 
 #features {
     padding: 5% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
 
 .div-feature {
@@ -159,4 +167,32 @@ h2 {
 .btn-pricing:hover {
     background-color: #ffbdc6;
     border-color: #ffbdc6;
+}
+
+.h1-pricing {
+    color: black;
+}
+
+@media (max-width: 1000px) {
+
+    .img-phone {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 18rem;
+        transform: rotate(25deg);
+        position: static;
+    }
+
+    #div-phone {
+        padding-left: 0;
+    }
+
+
+    #features {
+        padding: 5% 15%;
+        background-color: white;
+        position: static;
+        z-index: auto;
+    }
 }
